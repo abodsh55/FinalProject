@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unit Converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="sticky">
+    <h1>Your Website Title</h1>
+    <nav>
+      <ul>
+        <li><a href="p1.html">Home</a></li>
+        <li>
+          <a href="#">Links</a>
+          <ul>
+            <li><a href="personal-info.html">Personal Info</a></li>
+            <li><a href="social-media.html">Social Media</a></li>
+            <li><a href="unit-converter.html">Unit Converter</a></li>
+            <li><a href="dice-game.html">Dice Game</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <fieldset>
+    <legend>Unit Converter</legend>
+    <div class="converter">
+      <div class="radio-group" style="text-align: center">
+        <h3>Temperature Converter</h3>
+        <input type="radio" name="converter" id="temp-converter" value="temp">
+        <label for="temp-converter">Fahrenheit to Celsius</label>
+        <h3>Distance Converter</h3>
+        <input type="radio" name="converter" id="dist-converter" value="dist">
+        <label for="dist-converter">Kilometars to Miles</label>
+        <h3>Length Converter</h3>
+        <input type="radio" name="converter" id="length-converter" value="length">
+        <label for="length-converter">Meters to feet</label>
+      </div>
+    </fieldset>
+      <fieldset>
+        <legend>Unit Converter</legend>
+      <div class="input-group">
+        <label for="value">Value:</label>
+        <input type="text" id="value" placeholder="Enter value">
+      </div>
+      <button onclick="convert()">Convert</button>
+      <div id="result"></div>
+    </div>
+  </fieldset>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Abdalfatah.شركه العهد الجديد</p>
+    <!-- Add social media icons here -->
+  </footer>
+</body>
+</html>
